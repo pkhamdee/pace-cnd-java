@@ -3,9 +3,10 @@ applications:
   path: target/sb-service-client-0.0.1-SNAPSHOT.jar
   disk_quota: 1G
   instances: 1
-  memory: 1G
+  memory: 700M
   buildpack: java_buildpack
   random-route: true
   stack: cflinuxfs2
   services:
   - service-registry
+  - circuit-breaker-dashboard

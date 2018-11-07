@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
-//@EnableDiscoveryClient
+@EnableDiscoveryClient
 @RestController
 @RefreshScope
 public class SBController {
